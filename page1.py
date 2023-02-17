@@ -91,7 +91,6 @@ def page_one():
             col1.error('I\'m sorry to say that You probably have a Heart disease.Take care yourself.')
         else:
             col1.info('You don\'t have a Heart disease') 
-        predict_Heart.to_excel("Heart_result.xlsx") 
         f_Heart = open('Heart_result.csv','w')
         f_Heart.write(f'{result},{age},{sex},{cp},{trestbps},{RestECG},{thalach},{exang},{oldpeak},{slope},{Ca},{Thal}')
         f_Heart.close
