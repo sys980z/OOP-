@@ -20,7 +20,7 @@ def page_one():
     st.markdown("Attention Please,Please do by step by step 1 to 4 your final step is :red[go!!!]")
     col1, col2 = st.columns(2) 
     option = col1.selectbox(
-'How would you like to be contacted?',
+'This is a step by step.',
 ('Let start!!!', '👀 Load your Dataset 👀', '👾Training!👾',"go!!!"))
     if option == 'Let start!!!': # Create model fuction
         t0 = int(t.time())
